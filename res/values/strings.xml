@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Field Tracker</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="field_tracker">Field Tracker</string>
+    <string name="_91">+91</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="i_m_admin">I\'m Admin</string>
+    <string name="i_m_employee">I\'m Employee</string>
+    <string name="welcome_employee">Welcome Employee!</string>
+    <string name="click_below_button_to_start_work">Click below button to start work!</string>
+    <string name="start">Start</string>
+    <string name="logout">Logout</string>
+    <string name="set_start_location">Set Start Location</string>
+    <string name="title_activity_track_employee">Map</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/field_tracker"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/welcome_employee"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/click_below_button_to_start_work"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/set_current_location"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_rounded_corner"
+        android:text="@string/set_start_location"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/starttracking"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/aclonica"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_rounded_corner"
+        android:text="@string/start"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        />
+
+
+
+</LinearLayout>

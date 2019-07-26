@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ChooseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/rounded_corner">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/field_tracker"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/gotoadmin"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/aclonica"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_rounded_corner"
+            android:text="@string/i_m_admin"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/gotoemployee"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/aclonica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_rounded_corner"
+            android:text="@string/i_m_employee"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/logout"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/aclonica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_rounded_corner"
+            android:text="@string/logout"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
