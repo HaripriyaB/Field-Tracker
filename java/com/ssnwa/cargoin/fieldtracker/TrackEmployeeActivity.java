@@ -56,7 +56,7 @@ public class TrackEmployeeActivity extends FragmentActivity implements OnMapRead
             {R.color.colorPrimary,R.color.colorPrimaryDark,R.color.common_google_signin_btn_text_dark_focused,R.color.colorAccent,
                     R.color.primary_dark_material_light};
 
-    public String apikey="AIzaSyDEojkEteyPQ4X6RSXa3WXy4VmLEgVi3tw";
+    public String apikey="your-api-key-here";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
